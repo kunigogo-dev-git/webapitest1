@@ -1,0 +1,29 @@
+{
+  "name": "webapitest1",
+  "version": "0.2.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kunigogo-dev-git/webapitest1"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "kunigogo",
+  "contributors": [
+    "kunigogo"
+  ],
+  "license": "MIT"
+}
