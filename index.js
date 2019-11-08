@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
   let n = new Date()
-  response.send('Hello World!  @ ' + n.toISOString())
+  response.send('Hello World!, Hello Japan! @ ' + n.toISOString())
 })
 
 app.get('/api', function(request, response) {
